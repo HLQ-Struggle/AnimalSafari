@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hlq.animalsafari.MDAnimationActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?attr/selectableItemBackground" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:onClick="getSelectable" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:onClick="getSelectable1" />
+
+</android.support.v7.widget.LinearLayoutCompat>
